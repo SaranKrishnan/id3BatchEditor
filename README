@@ -1,0 +1,17 @@
+This is the ID3 Tag Editor. Often there are URL embeded 
+into the ID3 frames (Title, Artist, Album). They are often
+annoying when used on mobile phones, since they sort 
+based on these tags. This program aims to remove unwanted 
+text from the MP3 file making it clean and simple.
+
+Compile using gcc -o id3BatchEditor <id3BatchEditor.c>
+
+Inorder to run the program use the following syntax.
+
+id3BatchEditor -f <list of mp3 files or *mp3> -r <text to be
+removed>
+
+Feel free for any suggestion or improvements.
+
+Reach me out via k.saran.k@gmail.com
+
